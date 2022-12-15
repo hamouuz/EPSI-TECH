@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white ;
+}
+
+.nav-list{
+    background: whitesmoke;
+    margin-top:25px;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  i{
+      margin-right: 10px;
+  }
+
+.soushead{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.soushead a{
+    text-decoration: none;
+    color:black;
+}
+
+.tableau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.tableau h2{
+    color: black;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+ table {
+    border-collapse:separate;
+    width: 80%;
+    margin: 2rem 3rem 0 6rem;
+    text-align: center;
+  }
+
+  tr{
+      background-color: whitesmoke;
+  }
+  
+  td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+  td a{
+    cursor: pointer;
+    color: rgba(49, 49, 49, 0.801);
+  }
+
+  .preced input{
+  width: 10%;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-weight: 250;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(7, 7, 7, 0.801);
+  border-radius: 30px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.preced input[type="button"]:hover{
+  background: rgba(49, 49, 49, 0.801);
+}
